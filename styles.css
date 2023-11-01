@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+body {
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  padding: 10px;
+}
+
+/*CSS Formulario*/
+
+.form-container {
+  padding: 50px;
+  width: 300px;
+  margin: auto;
+  margin-top: 50px;
+  margin-left: 50px;
+  box-shadow: 7px 13px 37px #5f417c;
+  border-radius: 5px;
+}
+
+.from-label {
+  padding: 20px;
+  font-size: medium;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+}
+
+.form-input {
+  display: flex;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 18rem;
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: black
+}
+
+.form-input:focus {
+  border-color: #5f417c;
+}
+
+.form-btn {
+  width: 100%;
+  margin-top: 30px;
+  padding: 10px;
+  background-color: #b19bc6;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.form_btn:hover {
+  background-color: #77519b;
+}
+
+/*CSS Tabla*/
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 50px;
+  font-size: 16px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+
+.table th, .table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Estilo para las celdas de encabezado */
+.table th {
+  background-color: #b19bc6;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* Estilo para las filas impares */
+.table tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+  text-align: center;
+}
+
+/* Estilo para las filas pares */
+.table tbody tr:nth-child(even) {
+  background-color: #e4dceb;
+  text-align: center;
+}
+
+/* Estilo botones */
+
+.btn-accion {
+  padding: 5px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-accion ion-icon {
+  font-size: 16px;
+  color: #5f417c;
+  text-align: center;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <!--Iconicons-->
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <title>Productos</title>
+</head>
+<body>
+  
+  <div class="container">
+
+      <!--Formulario-->
+    <div class="form-container">     
+      <form action="" class="form" id="form">
+        <label for="titulo" class="form-label">Titulo</label>
+        <input type="text" class="form-input" placeholder="Titulo de la pelicula" id="title" >
+        <label for="sipnosis" class="form-label">Sipnosis</label>
+        <input type="text" class="form-input" placeholder="Sipnosis de la pelicula" id="sypnosis">
+        <label for="poster" class="form-label">Poster</label>
+        <input type="text" class="form-input" placeholder="Poster de la pelicula" id="poster">
+        <label for="genero" class="form-label">Genero</label>
+        <input type="text" class="form-input" placeholder="Genero de la pelicula" id="genre">
+        <label for="director" class="form-label">Director</label>
+        <input type="text" class="form-input" placeholder="Director de la pelicula" id="director">
+        <label for="reparto" class="form-label">Reparto</label>
+        <input type="text" class="form-input" placeholder="Rerparto de la pelicula" id="cast">
+        <button type="submit" class="form-btn" id="submit-btn">Enviar</button>
+      </form>
+    </div>
+
+    <!--Tabla-->
+    <table class="table" id="table">
+      <tr>
+        <thead>
+          <tr>
+            <th>Titulo</th>
+            <th>Sipnosis</th>
+            <th>Poster</th>
+            <th>Genero</th>
+            <th>Direccion</th>
+            <th>Reparto</th>
+            <th>Acciones</th>
+          </tr>
+          <tbody id="t-body"></tbody>
+      </tr>
+    </table>
+  </div>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
